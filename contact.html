@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#08090c">
+    <meta name="description" content="Contact Kirill for website development, Telegram bots, interactive web and backend projects.">
+    <title>Contact — MyPortfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&family=Syne:wght@500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header class="site-header"><div class="nav-inner">
+        <a href="index.html" class="logo">MYPORTFOLIO<span>✳</span></a>
+        <nav class="site-nav" id="siteNav" aria-label="Main navigation">
+            <a href="index.html">Home</a><a href="projects.html">Projects</a><a href="about.html">About</a><a href="services.html">Services</a><a href="contact.html" class="active">Contact</a>
+        </nav>
+        <div class="nav-actions"><a href="https://www.fiverr.com/sellers/itprogkk" target="_blank" rel="noopener noreferrer" class="nav-hire">Fiverr <span>↗</span></a><button class="menu-toggle" type="button" aria-label="Open navigation" aria-controls="siteNav" aria-expanded="false"><span></span><span></span></button></div>
+    </div></header>
+
+    <main>
+        <section class="page-hero site-container">
+            <p class="eyebrow">04 / LET'S TALK</p>
+            <h1 class="page-title">START A<br><span class="dimmed">PROJECT.</span></h1>
+            <div class="page-intro"><p>Need a website, a custom Telegram bot or a creative digital experience? Tell me about your idea.</p><span>PROJECT INQUIRIES / COLLABORATION</span></div>
+        </section>
+
+        <section class="section site-container section-tight">
+            <div class="contact-layout">
+                <div class="contact-info">
+                    <p class="eyebrow">GET IN TOUCH</p>
+                    <h2>GOT AN<br>IDEA? <span>LET'S TALK.</span></h2>
+                    <p>I'm open to discussing websites, redesigns, animated experiences, Telegram automation and development projects. You can email me directly or contact me through Fiverr.</p>
+
+                    <div class="contact-method">
+                        <span>01 / EMAIL</span>
+                        <a href="mailto:itjobfreelancer1@gmail.com">itjobfreelancer1@gmail.com ↗</a>
+                    </div>
+                    <div class="contact-method">
+                        <span>02 / FIVERR</span>
+                        <a href="https://www.fiverr.com/sellers/itprogkk" target="_blank" rel="noopener noreferrer">VIEW MY FIVERR PROFILE ↗</a>
+                    </div>
+                    <div class="contact-method">
+                        <span>03 / GITHUB</span>
+                        <a href="https://github.com/FreelanceByKyryl" target="_blank" rel="noopener noreferrer">EXPLORE MY CODE ↗</a>
+                    </div>
+
+                    <button class="copy-email" id="copyEmail" type="button">COPY EMAIL ADDRESS <span>↗</span></button>
+                    <p class="copy-status" id="copyStatus" role="status" aria-live="polite"></p>
+                </div>
+
+                <div class="contact-form-panel">
+                    <div class="form-heading"><span>PROJECT INQUIRY</span><span>✳</span></div>
+                    <h2>TELL ME ABOUT<br>YOUR PROJECT.</h2>
+                    <p>Fill out the details to prepare an email with your project information.</p>
+
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-row">
+                            <label>YOUR NAME
+                                <input type="text" name="name" placeholder="Your name" required maxlength="100">
+                            </label>
+                            <label>YOUR EMAIL
+                                <input type="email" name="email" placeholder="you@example.com" required maxlength="200">
+                            </label>
+                        </div>
+
+                        <label>PROJECT TYPE
+                            <select name="projectType" id="projectType" required>
+                                <option value="Business website">Business website</option>
+                                <option value="Landing page">Landing page</option>
+                                <option value="Interactive / 3D website">Interactive / 3D website</option>
+                                <option value="Portfolio website">Portfolio website</option>
+                                <option value="Website redesign">Website redesign</option>
+                                <option value="Telegram bot">Telegram bot</option>
+                                <option value="Telegram AI bot">Telegram AI bot</option>
+                                <option value="C# / .NET application">C# / .NET application</option>
+                                <option value="Other project">Other project</option>
+                            </select>
+                        </label>
+
+                        <label>PROJECT DETAILS
+                            <textarea name="message" rows="6" placeholder="Tell me what you'd like to build..." required maxlength="3000"></textarea>
+                        </label>
+
+                        <button class="btn btn-white form-submit" type="submit">PREPARE EMAIL <span>↗</span></button>
+                        <p class="form-note">This opens your email app with the details filled in. Please press Send there to deliver your message.</p>
+                        <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer"><div class="site-container footer-inner">
+        <div><a href="index.html" class="logo">MYPORTFOLIO<span>✳</span></a><p>Creative development by Kirill.</p></div>
+        <div class="footer-nav"><a href="projects.html">Projects</a><a href="about.html">About</a><a href="services.html">Services</a><a href="https://www.fiverr.com/sellers/itprogkk" target="_blank" rel="noopener noreferrer">Fiverr ↗</a><a href="https://github.com/FreelanceByKyryl" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div>
+    </div></footer>
+</body>
+</html>
