@@ -793,7 +793,7 @@ textarea:focus-visible {
     background: linear-gradient(130deg,#6d4931,#23150f);
 }
 
-/* Local illustrated covers keep source-only projects independent of remote embeds. */
+/* Local covers keep project previews independent of remote embeds. */
 .preview-link.project-cover {
     height: auto;
     aspect-ratio: 800 / 420;
@@ -813,6 +813,23 @@ textarea:focus-visible {
     width: 100%;
     height: 100%;
     object-fit: contain;
+}
+
+/* Keep the complete supplied screenshot visible, with its caption below it. */
+.preview-link.screenshot-cover {
+    aspect-ratio: auto;
+}
+
+.screenshot-cover img {
+    height: auto;
+}
+
+.screenshot-cover .preview-overlay {
+    position: static;
+}
+
+.screenshot-cover::after {
+    display: none;
 }
 
 .live-preview {

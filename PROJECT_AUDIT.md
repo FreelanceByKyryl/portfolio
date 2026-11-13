@@ -9,8 +9,9 @@ FreelanceByKyryl GitHub profile and inspected the available website sources.
 The second repository-list page was empty. This establishes coverage of the
 visible repositories, not access to unlisted private repositories.
 
-Six websites are added, retaining the original eight projects (14 total;
-10 Websites, 4 Apps & Backend, 2 Bots & AI). The app/AI categories overlap.
+Six websites from inspected repositories and the owner-supplied Fernhollow visual
+concept are added, retaining the original eight projects (15 total; 11 Websites,
+4 Apps & Backend, 2 Bots & AI). The app/AI categories overlap.
 UTOPIA Flowers was removed at the owner's request after the initial audit.
 
 | Project | Source repository | Verified from source |
@@ -20,27 +21,38 @@ UTOPIA Flowers was removed at the owner's request after the initial audit.
 | NEXLOOP | [assasproject](https://github.com/FreelanceByKyryl/assasproject) | HTML, CSS, JavaScript; SaaS landing page, dashboard-style preview and pricing |
 | Grooming Studio 23 | [grooming](https://github.com/FreelanceByKyryl/grooming) | HTML, CSS, JavaScript; services, filterable gallery and copyable booking inquiry |
 | Ali Baba Auto Service | [alibabacars](https://github.com/FreelanceByKyryl/alibabacars) | HTML, CSS, JavaScript; Bulgarian automotive site for Varna with interactive vehicle presentation |
+| Fernhollow | Owner-supplied screenshot in `photos.zip`; no source URL verified | Flower-studio visual concept; description is limited to the supplied screenshot, with no unverified technology claims |
 | Developer Portfolio | [MyPortfolio](https://github.com/FreelanceByKyryl/MyPortfolio) | A separate HTML/CSS/JavaScript portfolio design with project search and filters |
 
 TENSILE, Flower Studio and Coffee Studio were already represented; their source
 links and frontend technologies are now included without duplicating the sites.
 `codexcheck` is empty. This portfolio is not added as a self-referential project.
 
-Fernhollow was not found in the visible repository list or inspected sources;
-the exact `FreelanceByKyryl/Fernhollow` and `FreelanceByKyryl/fernhollow` repository
-pages returned 404. It has not been added without verifiable source material.
+Fernhollow source was not found in the visible repository list or inspected
+sources; the exact `FreelanceByKyryl/Fernhollow` and
+`FreelanceByKyryl/fernhollow` repository pages returned 404. The owner subsequently
+supplied a screenshot and requested their own images in the collection, so it is
+shown as a visual concept without fabricated demo/source links or technologies.
 
 ## Links and covers
 
-- The existing TENSILE, Flower Studio and Coffee Studio Netlify demo links and
-  live previews are preserved. This environment blocks outbound access to those
-  demo domains (CONNECT 403), so deployment availability is not verified here.
+- The existing TENSILE, Flower Studio and Coffee Studio Netlify demo links are
+  preserved. Flower Studio uses the owner's screenshot on both the homepage and
+  project archive; TENSILE and Coffee Studio retain their live previews. This
+  environment blocks outbound access to those demo domains (CONNECT 403), so
+  deployment availability is not verified here.
 - No additional demo URL was found in the new sites' sources or GitHub homepage
   settings. Their cards explicitly link to source code instead of inventing demos.
-- The six local `images/projects/*.svg` covers come from the same owner's
+- Eight original PNG screenshots from the owner's `photos.zip` replace the
+  matching covers: SpaceEdu, KV Freight, NEXLOOP, Ali Baba, Grooming Studio 23,
+  Discord Bio, Flower Studio and Fernhollow. Files are copied byte-for-byte,
+  without cropping or image processing. Captions sit below screenshots so the
+  full images remain visible, and lazy loading limits initial downloads.
+- Only Developer Portfolio retains its illustrated SVG from the same owner's
   [MyPortfolio cover collection](https://github.com/FreelanceByKyryl/MyPortfolio/tree/377e680e177973512f6e3038b130d3dd185da211/images/projects).
-  They are illustrated covers, not screenshots. The alternate portfolio label is
-  adjusted for this archive. The assets need no remote fonts, images or scripts.
+  Obsolete illustrations for the five matching projects are removed.
+- Discord Bio now links to its verified original
+  [source repository](https://github.com/MuscuLopnul/Bio---Discord).
 - Existing homepage selections, visual theme and project categories are retained.
 
 ## Validation
