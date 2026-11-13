@@ -9,15 +9,15 @@ FreelanceByKyryl GitHub profile and inspected the available website sources.
 The second repository-list page was empty. This establishes coverage of the
 visible repositories, not access to unlisted private repositories.
 
-Seven websites are added, retaining the original eight projects (15 total;
-11 Websites, 4 Apps & Backend, 2 Bots & AI). The app/AI categories overlap.
+Six websites are added, retaining the original eight projects (14 total;
+10 Websites, 4 Apps & Backend, 2 Bots & AI). The app/AI categories overlap.
+UTOPIA Flowers was removed at the owner's request after the initial audit.
 
 | Project | Source repository | Verified from source |
 | --- | --- | --- |
 | SpaceEdu | [spaceplanet](https://github.com/FreelanceByKyryl/spaceplanet) | HTML, CSS, JavaScript, Canvas; planet switching, orbital simulation, comparison and quiz |
 | KV Freight Group | [kv-freight](https://github.com/FreelanceByKyryl/kv-freight) | HTML, CSS, JavaScript; multiple logistics pages, scroll motion and tracking demo |
 | NEXLOOP | [assasproject](https://github.com/FreelanceByKyryl/assasproject) | HTML, CSS, JavaScript; SaaS landing page, dashboard-style preview and pricing |
-| UTOPIA Flowers | [demoversionOfUTOPIAFLOWERS](https://github.com/FreelanceByKyryl/demoversionOfUTOPIAFLOWERS) | HTML, CSS, JavaScript; Bulgarian florist landing page, bouquets, occasions and animations |
 | Grooming Studio 23 | [grooming](https://github.com/FreelanceByKyryl/grooming) | HTML, CSS, JavaScript; services, filterable gallery and copyable booking inquiry |
 | Ali Baba Auto Service | [alibabacars](https://github.com/FreelanceByKyryl/alibabacars) | HTML, CSS, JavaScript; Bulgarian automotive site for Varna with interactive vehicle presentation |
 | Developer Portfolio | [MyPortfolio](https://github.com/FreelanceByKyryl/MyPortfolio) | A separate HTML/CSS/JavaScript portfolio design with project search and filters |
@@ -37,7 +37,7 @@ pages returned 404. It has not been added without verifiable source material.
   demo domains (CONNECT 403), so deployment availability is not verified here.
 - No additional demo URL was found in the new sites' sources or GitHub homepage
   settings. Their cards explicitly link to source code instead of inventing demos.
-- The seven local `images/projects/*.svg` covers come from the same owner's
+- The six local `images/projects/*.svg` covers come from the same owner's
   [MyPortfolio cover collection](https://github.com/FreelanceByKyryl/MyPortfolio/tree/377e680e177973512f6e3038b130d3dd185da211/images/projects).
   They are illustrated covers, not screenshots. The alternate portfolio label is
   adjusted for this archive. The assets need no remote fonts, images or scripts.
