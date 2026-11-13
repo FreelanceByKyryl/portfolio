@@ -26,8 +26,8 @@ bouquet carousel, and the Bulgarian Flower Boutique with an arched bouquet hero.
 | Fernhollow | Owner-supplied screenshot in `photos.zip`; no source URL verified | Flower-studio visual concept; description is limited to the supplied screenshot, with no unverified technology claims |
 | Developer Portfolio | [MyPortfolio](https://github.com/FreelanceByKyryl/MyPortfolio) | A separate HTML/CSS/JavaScript portfolio design with project search and filters |
 
-TENSILE, Flower Studio and Coffee Studio were already represented; their source
-links and frontend technologies are now included without duplicating the sites.
+TENSILE, Flower Studio and Coffee Studio were already represented. Their frontend
+technologies are documented without duplicating the sites.
 `codexcheck` is empty. This portfolio is not added as a self-referential project.
 
 Fernhollow source was not found in the visible repository list or inspected
@@ -38,13 +38,28 @@ shown as a visual concept without fabricated demo/source links or technologies.
 
 ## Links and covers
 
-- The existing TENSILE, Flower Studio and Coffee Studio Netlify demo links are
-  preserved with their live previews. Flower Studio links to the English
-  `YourCompanyFlowers` source. This environment blocks outbound access to those
-  demo domains (CONNECT 403), so deployment availability and current deployment
-  content are not independently verified here.
-- No additional demo URL was found in the new sites' sources or GitHub homepage
-  settings. Their cards explicitly link to source code instead of inventing demos.
+- The owner supplied these nine Netlify URLs. All project-card anchors for these
+  sites (cover, text action and round arrow) now open the live site instead of
+  GitHub, with matching visible and accessible labels. Source references remain
+  in this audit for provenance.
+
+  | Project | Owner-supplied live URL |
+  | --- | --- |
+  | KV Freight Group | https://kv-freight.netlify.app/ |
+  | Grooming Studio 23 | https://groomingstudio23.netlify.app/ |
+  | Ali Baba Auto Service | https://alibabaservices.netlify.app/ |
+  | TENSILE Fitness | https://tensilefitness.netlify.app/ |
+  | Flower Studio (English) | https://interactiveflowershop.netlify.app/ |
+  | Coffee Studio | https://coffeesitedemo.netlify.app/ |
+  | Flower Boutique (Bulgarian) | https://flowersitedemo.netlify.app/ |
+  | Developer Portfolio | https://myportfoliositebykirill.netlify.app/ |
+  | SpaceEdu | https://space-eduu.netlify.app |
+
+- Homepage project links use the same supplied URLs. Existing live iframes are
+  retained. This environment blocks outbound Netlify access (CONNECT 403), so local
+  checks validate link targets, not remote deployment availability.
+- Projects without supplied live URLs keep their existing verified source links;
+  Fernhollow remains a screenshot-only concept without a fabricated destination.
 - Eight original PNG screenshots from the owner's `photos.zip` replace the
   matching covers: SpaceEdu, KV Freight, NEXLOOP, Ali Baba, Grooming Studio 23,
   Discord Bio, Flower Boutique and Fernhollow. Files are copied byte-for-byte,
@@ -60,7 +75,10 @@ shown as a visual concept without fabricated demo/source links or technologies.
   Obsolete illustrations for the five matching projects are removed.
 - Discord Bio now links to its verified original
   [source repository](https://github.com/MuscuLopnul/Bio---Discord).
-- Existing homepage selections, visual theme and project categories are retained.
+- The homepage hero features the owner's original SpaceEdu screenshot instead
+  of the decorative TENSILE illustration. Its caption and both hero links now
+  point to SpaceEdu, and the image is shown uncropped with high fetch priority.
+  The selected-project list, visual theme and project categories are retained.
 
 ## Validation
 

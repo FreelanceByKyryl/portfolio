@@ -406,6 +406,18 @@ textarea:focus-visible {
     font-size: 19px;
 }
 
+/* The featured project uses the owner's original screenshot at its full ratio. */
+.hero-project-preview {
+    display: block;
+    background: #03070e;
+}
+
+.hero-project-preview img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
 .shatter-scene {
     position: relative;
     height: clamp(430px,37vw,590px);
